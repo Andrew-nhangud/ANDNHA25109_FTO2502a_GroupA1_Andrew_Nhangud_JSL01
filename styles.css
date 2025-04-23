@@ -38,3 +38,44 @@ body{
     font-size: 18px;
     font-weight: 700;
 }
+
+/* cards container */
+.cards-container{
+    width: 90%;
+    max-width: 1200px;
+    margin: 32px auto;
+}
+
+ /* the TODO, DOING and DONE heading styles */
+.task-heading{
+    display: flex;  
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 30px;
+}
+.task-heading span{
+    background-color: #49c4e5;
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+}
+.task-heading h4{
+    color: var(--third-clr);
+    font-size: 12px;
+    font-weight: 700;
+}
+
+/* the cards styles */
+
+ .task-card{
+    background-color: var(--secondary-clr);
+    height: 60px;
+    padding: 19px;
+    font-weight: 700;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-bottom: 21px;
+    display: flex;
+    align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+ }

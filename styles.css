@@ -45,6 +45,9 @@ body{
     max-width: 1200px;
     margin: 32px auto;
 }
+.cards{
+    margin-bottom: 30px;
+ }
 
  /* the TODO, DOING and DONE heading styles */
 .task-heading{
@@ -54,7 +57,6 @@ body{
     margin-bottom: 30px;
 }
 .task-heading span{
-    background-color: #49c4e5;
     width: 15px;
     height: 15px;
     border-radius: 15px;
@@ -65,8 +67,18 @@ body{
     font-weight: 700;
 }
 
-/* the cards styles */
+/* the color styles for the TODO, DOING and DONE heading styles */
+.todo-clr{
+    background-color: #49c4e5;
+}
+.doing-clr{
+    background-color: #8471f2;
+}
+.done-clr{
+    background-color: #67e2ae;
+}
 
+/* the cards styles */
  .task-card{
     background-color: var(--secondary-clr);
     height: 60px;
@@ -79,3 +91,10 @@ body{
     align-items: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease; 
  }
+ .task-card:hover {
+    transform: translateY(-5px);
+    background-color:var(--accent-clr);
+    color: var(--secondary-clr);
+    box-shadow: 0 4px 12px rgba(15, 15, 15, 0.6);
+}
+

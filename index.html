@@ -1,67 +1,69 @@
-<html>
-  <head>
-    <meta />
-    <meta />
-    <title>Document</title>
-  </head>
+<!DOCTYPE html>
+<html lang="en">
 
-  <body>
-    <!-- Navigation Sidebar: Contains the logo, navigation links for boards, and theme toggle. -->
-    <nav>
-      <div>
-        <h4>ALL BOARDS (1)</h4>
-        <button>Launch Career</button>
-      </div>
-    </nav>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Kanban</title>
+</head>
 
-    <!-- Main Layout: Header with board title, add task button, and main content area for task columns. -->
+<body>
+  <!-- Navigation Sidebar: Contains the logo, navigation links for boards, and theme toggle. -->
+  <nav class="side-bar">
     <div>
-      <header>
-        <div>
-          <h2>Launch Career</h2>
-        </div>
-      </header>
-
-      <div>
-        <main>
-          <!-- Task Columns: Display tasks grouped by status (TODO, DOING, DONE). -->
-          <div>
-            <div>
-              <span></span>
-              <h4>TODO</h4>
-            </div>
-            <!-- Tasks container for TODO -->
-            <div>
-              <div>Launch Epic Career 🚀</div>
-              <div>Learn Data Structures and Algorithms 📚</div>
-            </div>
-          </div>
-          <!-- DOING Column -->
-          <div>
-            <div>
-              <span></span>
-              <h4>DOING</h4>
-            </div>
-            <!-- Tasks container for DOING -->
-            <div>
-              <div>Master JavaScript 💛</div>
-              <div>Keep on Going 🏆</div>
-            </div>
-          </div>
-          <!-- DONE Column -->
-          <div>
-            <div>
-              <span></span>
-              <h4>DONE</h4>
-            </div>
-            <!-- Tasks container for DONE -->
-            <div>
-              <div>Contribute to Open Source Projects 🌐</div>
-              <div>Build Portfolio Projects 🛠️</div>
-            </div>
-          </div>
-        </main>
-      </div>
+      <img src="assets/logo-light.svg" alt="logo">
+      <h4>ALL BOARDS (1)</h4>
+      <button>Launch Career</button>
     </div>
-  </body>
+  </nav>
+
+  <!-- Main Layout: Header with board title, add task button, and main content area for task columns. -->
+  <header class="main-header">
+    <img src="assets/favicon.svg" alt="favicon">
+    <h2>Launch Career</h2>
+  </header>
+
+  <main>
+    <!-- Task Columns: Display tasks grouped by status (TODO, DOING, DONE). -->
+    <section>
+      <div>
+        <span></span>
+        <h4>TODO</h4>
+      </div>
+      <!-- Tasks container for TODO -->
+      <ul>
+        <li>Launch Epic Career 🚀</li>
+        <li>Learn Data Structures and Algorithms 📚</li>
+      </ul>
+    </section>
+
+    <!-- DOING Column -->
+    <section>
+      <div>
+        <span></span>
+        <h4>DOING</h4>
+      </div>
+      <!-- Tasks container for DOING -->
+      <ul>
+        <li>Master JavaScript 💛</li>
+        <li>Keep on Going 🏆</li>
+      </ul>
+    </section>
+
+    <!-- DONE Column -->
+    <section>
+      <div>
+        <span></span>
+        <h4>DONE</h4>
+      </div>
+      <!-- Tasks container for DONE -->
+      <ul>
+        <li>Contribute to Open Source Projects 🌐</li>
+        <li>Build Portfolio Projects 🛠️</li>
+      </ul>
+    </section>
+  </main>
+</body>
+
 </html>

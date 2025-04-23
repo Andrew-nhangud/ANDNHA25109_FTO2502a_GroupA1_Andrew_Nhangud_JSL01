@@ -147,6 +147,9 @@ body{
     .main-header{
         height: 96px;
     }
+    .main-header img{
+        display: none;
+    }
 }
 
 @media (min-width:1024px){

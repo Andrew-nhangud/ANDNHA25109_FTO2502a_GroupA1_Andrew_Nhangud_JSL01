@@ -5,13 +5,36 @@
     box-sizing: border-box;
     font-family: 'Plus Jakarta Sans';
 }
-
+:root{
+    --background-clr: #e4ebfa;
+    --primary-clr: #000112;
+    --secondary-clr: #fff;
+    --third-clr: #828fa3;
+    --accent-clr: #635fc7;
+}
+body{
+    background-color: var(--background-clr);
+}
+/* styles for the side bar */
 .side-bar{
     display: none;
 }
 
-@media(min-width: 768px)  {
-    .side-bar{
-        display: block;
-    }
+/* Main Layout header section */
+.main-header{
+    background-color: var(--secondary-clr);
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    height: 64px;    
+    padding-left: 16px;
+}
+.main-header img{ 
+    width: 24px;
+    height: 25px;
+
+}
+.main-header h2{
+    font-size: 18px;
+    font-weight: 700;
 }

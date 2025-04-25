@@ -1,35 +1,28 @@
-# JSL01 Challenge Brief: Kanban Board UI Implementation
+# Kanban Board Website
 
-## Figma Design Link
+A responsive and dynamic Kanban board website designed to manage tasks efficiently. The project emphasizes clean design and user-friendly functionality.
 
-Before starting this project, refer to the provided Figma design for layout, styling, and responsiveness details: https://www.figma.com/design/y7bFCUYL5ZHfPeojACBXg2/Challenge-1-%7C-JSL?node-id=0-1&t=yngAIXXKnJfH7Jj3-1
+## Features
+- **Navigation Sidebar:** A collapsible sidebar containing navigation links and theme toggle.
+- **Task Management Columns:** Tasks are organized into three statuses: TODO, DOING, and DONE.
+- **Responsive Design:** Optimized for various screen sizes, including mobile, tablet, and desktop.
+- **Interactive UI:** Hover effects for task cards to enhance user interaction.
 
-## Overview
+## Technologies Used
+- **HTML5:** Structuring the webpage elements.
+- **CSS3:** Custom styling with CSS variables, responsive media queries, and hover effects.
+- **Google Fonts:** Integration of 'Plus Jakarta Sans' for typography.
+- **CSS Grid:** Used for flexible layout and content arrangement.
 
-This project involves developing a **visually accurate and fully responsive Kanban board** that aligns with the provided **Figma design**. The board should be structured into multiple columns and include task cards, a static side panel, and a well-defined theme to ensure a **professional and polished user experience.**
+## How to Use
+1. Clone the repository to your local machine.
+2. Open the `index.html` file in your browser to view the Kanban board.
+3. Customize task cards, colors, or layouts by editing the CSS and HTML files.
 
-## Before You Begin
+## Future Enhancements
+- Adding drag-and-drop functionality for task cards.
+- Incorporating a theme switcher for light and dark modes.
+- Integrating AI tools to automate task management.
 
-**Check the project user stories in your student dashboard** before you start building.
-
-## Key Objectives
-
-- Implement a **favicon and page title** that match the application’s theme for a professional look.
-- Create a **Kanban board with multiple columns** (e.g., "To Do", "In Progress", "Done") that **exactly replicates** the Figma design layout.
-- Ensure the **board’s layout, colours, typography, and spacing** strictly follow the Figma specifications for visual consistency.
-- Develop a **fully responsive** board that adapts seamlessly to **both laptops and mobile devices**, mirroring the Figma design’s responsive behavior.
-- Display **tasks as individual cards** within their respective columns, ensuring their design (borders, shadows, padding) follows the Figma guidelines for clarity and appeal.
-- Include **titles on all task cards** to provide clear task descriptions.
-- Implement a **static side panel with** the correct **icons, text, and branding elements** as per the Figma layout for a structured and professional appearance.
-
-## 📱 Mobile View
-
-![Mobile UI](./explainer-images/JSL01_Mobile.png)
-
-## 💻 Desktop View
-
-![Desktop UI](./explainer-images/JSL01-Desktop.png)
-
-## Expected Outcome
-
-The final application will present a **visually cohesive, user-friendly, and responsive Kanban board** that aligns precisely with the provided Figma design. It will include **consistent styling**, **a well-structured layout, and intuitive task organization** to enhance usability across different devices.
+## Credits
+Developed by Andrew with attention to detail and responsive design principles.

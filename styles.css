@@ -6,7 +6,7 @@
     font-family: 'Plus Jakarta Sans';
 }
 :root{
-    --background-clr: #e4ebfa;
+    --background-clr: #f4f7fd;
     --primary-clr: #000112;
     --secondary-clr: #fff;
     --third-clr: #828fa3;
@@ -113,6 +113,7 @@ body{
         display: block;
         background-color: var(--secondary-clr);
         width: 250px;
+        border-right: 1px solid #e4ebfa;
     }
     .side-bar img{
         width: 152.53px;
@@ -126,6 +127,7 @@ body{
         color: var(--third-clr);
         margin-top: 50px;
         margin-left: 27px;
+        padding: 0px 12px 0px 60px;
     }
     .side-bar button{
         margin-top: 15px;
@@ -146,6 +148,7 @@ body{
     /* the header styles */
     .main-header{
         height: 96px;
+        border-bottom: 1px solid #e4ebfa;
     }
     .main-header img{
         display: none;
@@ -171,5 +174,10 @@ body{
     .main-header{
         height: 96px;
         width: 102.9%;
+    }
+
+    .main-header h2{
+        font-size: 24px;
+        font-weight: bold;
     }
 }
